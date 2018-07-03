@@ -1,103 +1,146 @@
 
-.mainWrapper{width: 100%;
 
+.mainWrapper {
+	width: 100%;
 }
 
 body {
-  margin: 0;
-  font-family: Arial;
+	margin: 0;
+	font-family: Arial;
 }
 
 .top-container {
 	height: 20px;
-	
-  background-color: #0A7FFB;
-  padding: 5px;
-/*  text-align: center;*/
+	background-color: #F5C4C5;
+	padding: 5px;
+	/*  text-align: center;*/
 }
-.top-container h1{
+
+.top-container h1 {
 	font-size: 22px;
 	margin: -5px;
 	padding: 0px;
 	float: left;
 }
 
-.top-container p{
+.header img {
+	margin-top: 50px;
+	padding: 0px;
+	float: right;
+}
+
+.top-container p {
 	float: left;
 	margin-left: 20px;
-	margin-top:0px;
-	
-	
+	margin-top: 0px;
 }
+
 .header {
-  padding: 5px;
-  background: #114968;
-  color: #0A7FFB;
+	padding: 5px;
+	background: #00aeef;
+	color: #0A7FFB;
+	height: 150px;
 }
 
 .content {
-  padding: 16px;
+	padding: 16px;
 }
 
 .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+	position: fixed;
+	top: 0;
+	width: 100%;
 }
 
-
-
-.sticky + .content {
-  padding-top: 52px;
+.sticky+.content {
+	padding-top: 190px;
 }
+
 
 /*This ends the header and body css above now below is the formatting for the navigation elements.*/
 
-.sticky ul {
-	width: 96%;
-	height: 20px;
-    border-radius: 0px 0px 15px 15px;
-    border-style: solid;
-    border-color: #114968;
-	background: #114968;
-	margin-top: -3px;
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-	border-bottom: 2px #00aeef solid; 
-	border-right:  2px #00aeef solid; 
-	border-left:  2px #00aeef solid; 
-	
-}
-.sticky ul li      {    display:inline;  text-decoration: none; }
-.sticky ul li a    { padding:0px   20px; text-decoration: none; }
-.sticky a:link		{ color:#ffffff;  }
-.sticky a:visited	{ color: #00aeef;  }
-.sticky a:active		{ color: #00aeef;  }
-.sticky a:focus		{ color: #00aeef;  }
-.sticky a:hover     	{ color: #00aeef;  }
-/*this is for the sticky ul*/
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-ul {
-
+.topHeader {
 	padding-top: 6px;
 	height: 20px;
-    border-radius: 0px 0px 15px 15px;
-    border-style: solid;
-    border-color: #114968;
+	border-radius: 0px 0px 15px 15px;
+	border-style: solid;
+	border-color: #114968;
 	background: #114968;
 	margin-top: -3px;
+	margin-left: -3px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-	border-bottom: 2px #00aeef solid; 
-	border-right:  2px #00aeef solid; 
-	border-left:  2px #00aeef solid; 
-	
+	border-bottom: 2px #00aeef solid;
+	border-right: 2px #00aeef solid;
+	border-left: 2px #00aeef solid;
 }
 
 
-ul li      {    display:inline;  text-decoration: none; }
-ul li a    { padding:0px   20px; text-decoration: none; }
-a:link		{ color:#ffffff;  }
-a:visited	{ color: #00aeef;  }
-a:active		{ color: #00aeef;  }
-a:focus		{ color: #00aeef;  }
-a:hover     	{ color: #00aeef;  }
+/*/////////////////////////////////////////////////////*/
+
+
+/*This is for the bottom links in the Navigation bar*/
+
+.navButtons {
+	
+	border-radius: 10px 10px 0px 0px;
+	padding: 0;
+	margin: 0;
+	width: 110px;
+	height: 30px;
+    box-shadow: none;
+	background-color: #00aeef;
+	border-color: #00aeef;
+	margin-left: 50px;
+	margin-top: 4px;
+
+}
+
+.bottomHeader {
+	height: 30px;
+	border-radius: 15px 15px 0px 0px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: 90px;
+	margin-left: -3px;
+	box-shadow: none;
+	border-right: 2px #00aeef solid;
+	border-left: 2px #00aeef solid;
+	box-shadow: 1px -2px 4px rgba(0, 0, 0, .5);
+	border-top: 2px #00aeef solid;
+}
+
+ul li {
+	display: inline;
+	text-decoration: none;
+	padding-top: 10px;
+}
+
+ul li a {
+	padding: 0px 20px;
+	text-decoration: none;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #00aeef;
+}
+
+a:active {
+	color: #00aeef;
+}
+
+a:focus {
+	color: #00aeef;
+}
+
+a:hover {
+	color: #00aeef;
+}
+
