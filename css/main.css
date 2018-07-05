@@ -45,10 +45,19 @@ body {
 	height: 155px;
 }
 .content {
-	padding: 16px;
+	padding: 5px;
+	
 	
 }
+.content h3 {
+	margin-left: 100px;
+}
 
+/*
+.content img {
+	box-sizing: border-box;
+}
+*/
 .sticky {
 	box-sizing: border-box; 
 	position: fixed;
