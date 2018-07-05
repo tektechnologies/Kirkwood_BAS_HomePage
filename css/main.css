@@ -4,6 +4,8 @@
 	width: 100%;
 }
 
+marquee {margin-top: -10px;}
+
 body {
 	margin: 0;
 	font-family: Arial;
@@ -11,7 +13,7 @@ body {
 
 .top-container {
 	height: 20px;
-	background-color: #F5C4C5;
+	background-color: #00aeef;
 	padding: 5px;
 	/*  text-align: center;*/
 }
@@ -37,7 +39,7 @@ body {
 
 .header {
 	padding: 5px;
-	background: #00aeef;
+	background: #114968;
 	color: #0A7FFB;
 	height: 150px;
 }
@@ -84,20 +86,6 @@ body {
 
 /*This is for the bottom links in the Navigation bar*/
 
-.navButtons {
-	
-	border-radius: 10px 10px 0px 0px;
-	padding: 0;
-	margin: 0;
-	width: 110px;
-	height: 30px;
-    box-shadow: none;
-	background-color: #00aeef;
-	border-color: #00aeef;
-	margin-left: 50px;
-	margin-top: 4px;
-
-}
 
 .bottomHeader {
 	height: 30px;
