@@ -4,8 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- <link rel="stylesheet" href="css/reset.css" />-->
- <link rel="stylesheet" href="css/main.css">
+
 <!-- <link rel="stylesheet" href="css/rightClickStyles.css" >-->
+  <link rel="stylesheet" href="css/main.css">
  <script src="js/rightClickEvent.js"></script>
 <!-- <script src="js/main.js"></script>  -->
 <!--
@@ -46,6 +47,7 @@
 					<li><a href="">Floor Plans</a></li>
 </ul>
  
+<!--
   <ul class="bottomHeader">
 					<li><a href="">ALARMS</a></li>
 					<li><a href="">Wind Turbine</a></li>
@@ -54,17 +56,66 @@
 					<li><a href="">Maps</a></li>
 					
 </ul>
+-->
 							
 
   
-  
+   <ul class="tasks">
+        <li class="task" data-id="3">
+          <div class="task__content">
+            Building Maps
+          </div>
+          <div class="task__actions">
+            <i class="fa fa-eye"></i>
+            <i class="fa fa-edit"></i>
+            <i class="fa fa-times"></i>
+          </div>
+        </li>
+        <li class="task" data-id="2">
+          <div class="task__content">
+            Lutron Lighting
+          </div>
+          <div class="task__actions">
+            <i class="fa fa-eye"></i>
+            <i class="fa fa-edit"></i>
+            <i class="fa fa-times"></i>
+          </div>
+        </li>
+        <li class="task" data-id="1">
+          <div class="task__content">
+            Parking Lot Lights
+          </div>
+          <div class="task__actions">
+            <i class="fa fa-eye"></i>
+            <i class="fa fa-edit"></i>
+            <i class="fa fa-times"></i>
+          </div>
+        </li>
+      </ul>
+ 
+
+<nav id="context-menu" class="context-menu">
+    <ul class="context-menu__items">
+      <li class="context-menu__item">
+        <a href="#" class="context-menu__link" data-action="View"><i class="fa fa-eye"></i> View Task</a>
+      </li>
+      <li class="context-menu__item">
+        <a href="#" class="context-menu__link" data-action="Edit"><i class="fa fa-edit"></i> Edit Task</a>
+      </li>
+      <li class="context-menu__item">
+        <a href="#" class="context-menu__link" data-action="Delete"><i class="fa fa-times"></i> Delete Task</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
   
   
 </div>
 
 
-
-
+    
 
 <div class="content">
  
@@ -158,5 +209,6 @@ function myFunction() {
   }
 }
 </script>
+ <script src="js/rightClickEvent.js"></script>
   </body>
 </html>

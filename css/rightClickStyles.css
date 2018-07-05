@@ -1,10 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 body {
   color: #595959;
@@ -14,11 +9,6 @@ body {
   line-height: 1.5;
 }
 
-.container {
-  margin: 0 auto;
-  padding: 0 24px;
-  max-width: 960px;
-}
 
 /* primary header */
 
@@ -65,18 +55,31 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+	height: 20px;
+	padding-top: 10px;
+	border-radius: 15px 15px 0px 0px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: 89px;
+	box-shadow: none;
+	border-right: 2px #00aeef solid;
+	border-left: 2px #00aeef solid;
+	box-shadow: 1px -2px 4px rgba(0, 0, 0, .5);
+	border-top: 2px #00aeef solid;
+	
 }
 
 .task {
-  display: flex;
-  justify-content: space-between;
-  padding: 12px 0;
-  border-bottom: solid 1px #dfdfdf;
+    display: inline;
+	text-decoration: none;
+	float: left;
+	color:#fff;padding: 0px 20px;
+	text-decoration: none;
+
 }
 
-.task:last-child {
-  border-bottom: none;
-}
+
 
 /* context menu */
 
