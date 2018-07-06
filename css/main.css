@@ -1,23 +1,130 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 
-
-.mainWrapper {
-	width: 100%;
-}
-
-/*marquee {margin-top: -13px;}*/
-
 body {
 	margin: 0;
 	font-family: Arial;
 	font-family: "Roboto", sans-serif;
 }
 
+ul li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #114968;
+}
+
+li {
+	float: left;
+}
+
+ul li a {
+	padding: 0px 20px;
+	text-decoration: none;
+	color: white;
+}
+
+a:link {
+	color: #ffffff;
+}
+
+a:visited {
+	color: #fff;
+}
+
+a:active {
+	color: #00aeef;
+}
+
+a:focus {
+	color: #00aeef;
+}
+
+a:hover {
+	color: #00aeef;
+}
+
+
+/*Starts the css for the drop down menu*/
+
+li a,
+.dropbtn {
+	/*    display: inline-block;*/
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+	background-color: #114968;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.topHeader {
+	padding-top: 6px;
+	height: 20px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: -3px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+/*This is for the bottom links in the Navigation bar*/
+
+.bottomHeader {
+	height: 20px;
+	padding-top: 10px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: 89px;
+	box-shadow: none;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.mainWrapper {
+	width: 100%;
+}
+
 .top-container {
 	height: 20px;
 	background-color: #00aeef;
 	padding: 5px;
-	/*  text-align: center;*/
 }
 
 .top-container h1 {
@@ -40,21 +147,16 @@ body {
 }
 
 .header {
-/*
-	padding-left: 2px;
-	padding-right: 2px;
-*/
 	background: #004b87;
 	color: #fff;
 	height: 155px;
 	border-bottom: 2px #114968 solid;
-	
 }
+
 .content {
 	padding: 5px;
-	
-	
 }
+
 .content h3 {
 	margin-left: 100px;
 }
@@ -62,184 +164,36 @@ body {
 .content img {
 	margin-left: 35px;
 }
+
 .sticky {
-	box-sizing: border-box; 
+	box-sizing: border-box;
 	position: fixed;
 	top: 0;
 	width: 100%;
 }
 
-.sticky +.content {
+.sticky+.content {
 	padding-top: 155px;
 }
 
-.sticky + .context-menu{
-/*	position:relative*/
-		
-}
 #flag {
 	margin-left: 5px;
 }
-/*This ends the header and body css above now below is the formatting for the navigation elements.*/
-
-
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.topHeader {
-	padding-top: 6px;
-	height: 20px;
-/*	border-radius: 0px 0px 15px 15px;*/
-	border-style: solid;
-	border-color: #114968;
-	background: #114968;
-	margin-top: -3px;
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-/*
-	border-bottom: 2px #00aeef solid;
-	border-right: 2px #00aeef solid;
-	border-left: 2px #00aeef solid;
-*/
-}
-
-
-/*/////////////////////////////////////////////////////*/
-
-
-/*This is for the bottom links in the Navigation bar*/
-
-
-.bottomHeader {
-	height: 20px;
-	padding-top: 10px;
-/*	border-radius: 15px 15px 0px 0px;*/
-	border-style: solid;
-	border-color: #114968;
-	background: #114968;
-	margin-top: 89px;
-	box-shadow: none;
-/*
-	border-right: 2px #00aeef solid;
-	border-left: 2px #00aeef solid;
-*/
-/*	box-shadow: 1px -2px 4px rgba(0, 0, 0, .5);*/
-/*	border-top: 2px #00aeef solid;*/
-	
-}
-
-
-
-ul li {
-	display: inline;
-	text-decoration: none;
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #114968;
-
-}
-
-li {
-    float: left;
-}
-
-ul li a {
-	padding: 0px 20px;
-	text-decoration: none;
-	color: white;
-	
-}
-
-a:link {
-	color: #ffffff;
-}
-
-a:visited {
-	color: #fff;
-}
-
-a:active {
-	color: #00aeef;
-}
-
-a:focus {
-	color: #00aeef;
-}
-
-a:hover {
-	color: #00aeef;
-	 
-}
-
-
-/*Starts the css for the drop down menu*/
-li a, .dropbtn {
-/*    display: inline-block;*/
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-	
-}
-li a:hover, .dropdown:hover .dropbtn {
-    background-color: #114968;
-}
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.dropdown-content a:hover {background-color: #f1f1f1}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 
 #cont_6d3b468dbfc6f6b875b030947d68a313 {
-	float:right;
-	
+	float: right;
 }
+
 .bodyPara {
-	float:left;
-	
+	float: left;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #004b87;
-   color: white;
-   text-align: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #004b87;
+	color: white;
+	text-align: center;
+
