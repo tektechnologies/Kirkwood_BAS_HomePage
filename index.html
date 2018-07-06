@@ -5,16 +5,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <!-- <link rel="stylesheet" href="css/reset.css" />-->
-      <!-- <link rel="stylesheet" href="css/rightClickStyles.css" >-->
       <link rel="stylesheet" href="css/main.css">
-      <script src="js/rightClickEvent.js"></script>
-      <!-- <script src="js/main.js"></script>  -->
-      <!--
-         <link rel="stylesheet" href="css/style.css" />
-         <link rel="stylesheet" href="css/index.css" />
-         
-         -->
       <title>KirkwoodBAS</title>
    </head>
    <body>
@@ -36,65 +27,88 @@
                <li><a href="">LUTRON</a></li>
                <li><a href="">Floor Plans</a></li>
             </ul>
-            <!--
-               <ul class="bottomHeader">
-               			<li><a href="">ALARMS</a></li>
-               			<li><a href="">Wind Turbine</a></li>
-               			<li><a href="">Load Shed</a></li>
-               			<li><a href="">Lutron</a></li>
-               			<li><a href="">Maps</a></li>
-               			
+            <ul class="bottomHeader">
+               <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#news">News</a></li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
+                  <li class="dropdown">
+                     <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+                     <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                     </div>
+                  </li>
                </ul>
-               -->
-            <ul class="tasks">
-               <li class="task" data-id="3">
-                  <div class="task__content">
-                     Building Maps
-                  </div>
-                  <div class="task__actions">
-                     <i class="fa fa-eye"></i>
-                     <i class="fa fa-edit"></i>
-                     <i class="fa fa-times"></i>
-                  </div>
-               </li>
-               <li class="task" data-id="2">
-                  <div class="task__content">
-                     Lutron Lighting
-                  </div>
-                  <div class="task__actions">
-                     <i class="fa fa-eye"></i>
-                     <i class="fa fa-edit"></i>
-                     <i class="fa fa-times"></i>
-                  </div>
-               </li>
-               <li class="task" data-id="1">
-                  <div class="task__content">
-                     Parking Lot Lights
-                  </div>
-                  <div class="task__actions">
-                     <i class="fa fa-eye"></i>
-                     <i class="fa fa-edit"></i>
-                     <i class="fa fa-times"></i>
-                  </div>
-               </li>
             </ul>
-            <nav id="context-menu" class="context-menu">
-               <ul class="context-menu__items">
-                  <li class="context-menu__item">
-                     <a href="#" class="context-menu__link" data-action="View"><i class="fa fa-eye"></i> View Task</a>
-                  </li>
-                  <li class="context-menu__item">
-                     <a href="#" class="context-menu__link" data-action="Edit"><i class="fa fa-edit"></i> Edit Task</a>
-                  </li>
-                  <li class="context-menu__item">
-                     <a href="#" class="context-menu__link" data-action="Delete"><i class="fa fa-times"></i> Delete Task</a>
-                  </li>
-               </ul>
-            </nav>
          </div>
          <div class="content">
             <!-- this is the American Flag gif-->
-            <img src="images/usa-american-flag-waving-animated-gif-26.gif" align="left" alt="flag" height="50px"/> 
+            <img src="images/usa-american-flag-waving-animated-gif-26.gif" align="left" alt="flag" height="50px" id="flag"/> 
             <!--this is the weather app-->
             <div id="cont_6d3b468dbfc6f6b875b030947d68a313">
                <script type="text/javascript" async src="https://www.theweather.com/wid_loader/6d3b468dbfc6f6b875b030947d68a313"></script>
@@ -103,17 +117,7 @@
             <h3>Energy Management & Control System</h3>
             <!-- this is the image of iowa counties-->
             <img src="images/iowa_counties.png" align="left" alt="Iowa Counties Map" /> 
-            
-            
-            
             <div class="bodyPara">
-              
-              
-              
-              
-              
-              
-              
                <p>The header will stick to the top when you reach its scroll position.</p>
                <p>Scroll back up to remove the sticky effect.</p>
                <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
@@ -135,50 +139,11 @@
          </div>
          <!--closes <div class="content">-->
          <footer class="footer">
-         
-         <p>Footer</p>
-         
-         
+            <p>Footer</p>
          </footer>
-         <!--
-            <div class="iowa">
-             <div class="form">
-             <form id="gradeLevels">
-            <label><input type="radio" name="grade" value="" id="allSchools">All</label>
-            <label><input type="radio" name="grade" value="e" id="elementary">Elementary Schools</label>
-            <label><input type="radio" name="grade" value="m" id="middleSchools">Middle Schools</label>
-            <label><input type="radio" name="grade" value="h" id="highSchools">High Schools</label>
-             </form>
-                 </div>
-            <div>
-            <canvas id="doughnut-chartIndex" width="800" height="250"></canvas>
-             </div>
-            </div>
-            
-            
-            -->
       </div>
       <!---mainWrapperClose-->
-      <!--
-         <script src="js/lib/chart.bundle.js"></script>
-         <script src="js/lib/papaparse.js"></script>
-         <script src="js/indexPage.js"></script>
-         -->
-      <script>
-         window.onscroll = function() {myFunction()};
-         
-         var header = document.getElementById("myHeader");
-         var sticky = header.offsetTop;
-         
-         function myFunction() {
-           if (window.pageYOffset > sticky) {
-             header.classList.add("sticky");
-           } else {
-             header.classList.remove("sticky");
-           }
-         }
-      </script>
-      <script src="js/rightClickEvent.js"></script>
+      <script src="js/main.js"></script>
    </body>
 </html>
 
