@@ -1,48 +1,122 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+/*///////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.mainWrapper {
+	width: 100%;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This with header div */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.top-container {
+	height: 20px;
+	background-color: #00aeef;
+	padding: 5px;
 }
-body {
-	line-height: 1;
+
+.top-container h1 {
+	font-size: 22px;
+	margin: -5px;
+	padding: 0px;
+	float: left;
 }
-ol, ul {
-	list-style: none;
+
+.top-container p {
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
 }
-blockquote, q {
-	quotes: none;
+
+.kirkWoodHeader {
+	background: #004b87;
+	color: #fff;
+	height: 155px;
+	border-bottom: 2px #114968 solid;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+.kirkWoodHeader img {
+	margin-top: 45px;
+	padding: 0px;
+	float: right;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This starts the float for the weather api */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.topHeaderKirkwood {
+	padding-top: 6px;
+	height: 20px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: -3px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+/*This is for the bottom links in the Navigation bar*/
+
+.bottomHeaderKirkwood {
+	height: 20px;
+	padding-top: 10px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: 89px;
+	box-shadow: none;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This starts the float for the weather api */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.content {
+	padding: 5px;
+}
+
+.content h3 {
+	margin-left: 100px;
+}
+
+.content img {
+	margin-left: 35px;
+}
+
+.sticky {
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky +.content {
+	padding-top: 155px;
+}
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This starts the float for the weather api */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+.bodyPara {
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #004b87;
+	color: white;
+	text-align: center;
 }

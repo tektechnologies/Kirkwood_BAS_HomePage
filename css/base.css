@@ -1,48 +1,47 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+body {
+	margin: 0;
+	font-family: Arial;
+	font-family: "Roboto", sans-serif;
+}
+
+ul li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+	overflow: hidden;
+	background-color: #114968;
 }
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+li {
+	float: left;
 }
-body {
-	line-height: 1;
+
+ul li a {
+	padding: 0px 20px;
+	text-decoration: none;
+	color: white;
 }
-ol, ul {
-	list-style: none;
+
+a:link {
+	color: #ffffff;
 }
-blockquote, q {
-	quotes: none;
+
+a:visited {
+	color: #fff;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+a:active {
+	color: #00aeef;
 }
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+
+a:focus {
+	color: #00aeef;
+}
+
+a:hover {
+	color: #00aeef;
 }
