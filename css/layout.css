@@ -8,6 +8,23 @@
 /* This with header div */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+.clearfix {
+  clear: both;
+  overflow: hidden;
+}
+.icon-menu {
+  position: absolute;
+  top: 25px;
+  right: 10px;
+  font-size: 2em;
+	z-index: 1;
+	color: #fff;
+}
+/* /////////////////////////////////// */
+/* Hambuger css above */
+/* /////////////////////////////////// */
+
+
 .top-container {
 	height: 20px;
 	background-color: #00aeef;
