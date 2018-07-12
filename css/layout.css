@@ -13,12 +13,24 @@
   overflow: hidden;
 }
 .icon-menu {
-  position: absolute;
-  top: 25px;
-  right: 10px;
-  font-size: 2em;
+ /* visibility: hidden; */
+	position: absolute;
+	top: 25px;
+	right: 10px;
+	font-size: 2em;
 	z-index: 1;
-	color: #fff;
+	color: #fff; 
+}
+/* Use of checkbox came from https://codepen.io/erikterwan/pen/EVzeRP?editors=1100 */
+.icon-menu + input {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
 }
 /* /////////////////////////////////// */
 /* Hambuger css above */
@@ -137,3 +149,37 @@
 	color: white;
 	text-align: center;
 }
+
+
+
+
+
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+
+  .icon-menu + input {
+    display: none;
+  }
+
+  nav ul {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    border: none;
+  }
+
+  nav ul li a {
+    padding: 10px 20px 10px 0px;
+  }
+}
+
+
+
+
+
+
