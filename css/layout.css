@@ -1,27 +1,28 @@
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+/*
 .mainWrapper {
 	width: 100%;
 }
+*/
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* This with header div */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*
 
-.clearfix {
+ .clearfix {
   clear: both;
   overflow: hidden;
 }
 .icon-menu {
- /* visibility: hidden; */
 	position: absolute;
-	top: 25px;
 	right: 10px;
 	font-size: 2em;
 	z-index: 1;
 	color: #fff; 
+
 }
-/* Use of checkbox came from https://codepen.io/erikterwan/pen/EVzeRP?editors=1100 */
 .icon-menu + input {
   width: 2em;
   height: 2em;
@@ -30,129 +31,34 @@
   right: 10px;
   cursor: pointer;
   opacity: 0;
-  z-index: 2;
-}
-/* /////////////////////////////////// */
-/* Hambuger css above */
-/* /////////////////////////////////// */
+	z-index: 2;
+	
+} 
 
 
-.top-container {
-	height: 20px;
-	background-color: #00aeef;
-	padding: 5px;
-}
+ nav ul {
+  margin-left: -200px;
+  margin-bottom: -200px;
+  padding: 0;
+} 
 
-.top-container h1 {
-	font-size: 22px;
-	margin: -5px;
-	padding: 0px;
-	float: left;
+.icon-menu + input:checked ~ ul {
+  margin-left: 0px;
+  margin-bottom: 0px;
 }
 
-.top-container p {
-	float: left;
-	margin-left: 20px;
-	margin-top: 0px;
+nav ul li {
+  list-style: none;
+  border-bottom: 1px solid #fff;
 }
 
-.kirkWoodHeader {
-	background: #004b87;
-	color: #fff;
-	height: 155px;
-	border-bottom: 2px #114968 solid;
+nav ul li a {
+  color: #777777;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+  padding: 10px 0;
 }
-.kirkWoodHeader img {
-	margin-top: 45px;
-	padding: 0px;
-	float: right;
-}
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* This starts the float for the weather api */
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.topHeaderKirkwood {
-	padding-top: 6px;
-	height: 20px;
-	border-style: solid;
-	border-color: #114968;
-	background: #114968;
-	margin-top: -3px;
-	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
-}
-
-/*This is for the bottom links in the Navigation bar*/
-
-.bottomHeaderKirkwood {
-	height: 20px;
-	padding-top: 10px;
-	border-style: solid;
-	border-color: #114968;
-	background: #114968;
-	margin-top: 89px;
-	box-shadow: none;
-}
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* This starts the float for the weather api */
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-.content {
-	padding: 5px;
-}
-
-.content h3 {
-	margin-left: 100px;
-}
-
-.content img {
-	margin-left: 35px;
-}
-
-.sticky {
-	box-sizing: border-box;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-
-.sticky +.content {
-	padding-top: 155px;
-}
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* This starts the float for the weather api */
-/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
-.bodyPara {
-	float: left;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	width: 100%;
-	background-color: #004b87;
-	color: white;
-	text-align: center;
-}
-
-
-
-
 
 @media only screen and (min-width: 640px) {
   .icon-menu {
@@ -176,7 +82,143 @@
   nav ul li a {
     padding: 10px 20px 10px 0px;
   }
+} 
+*/
+/* /////////////////////////////////// */
+/* Hambuger css above */
+/* /////////////////////////////////// */
+
+/*
+
+.top-container {
+	height: 20px;
+	background-color: #00aeef;
+	padding: 5px;
 }
+
+.top-container h1 {
+	font-size: 22px;
+	margin: -5px;
+	padding: 0px;
+	float: left;
+}
+
+.top-container p {
+	float: left;
+	margin-left: 20px;
+	margin-top: 0px;
+}
+
+ .kirkWoodHeader {
+	background: #004b87;
+	color: #fff;
+	height: 155px;
+	border-bottom: 3px #114968 solid;
+} 
+.kirkWoodHeader img {
+	margin-top: 45px;
+	padding: 0px;
+	float: right;
+}
+*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This starts the  */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*
+ .topHeaderKirkwood {
+	padding-top: 6px;
+	height: 20px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: -3px;
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+*/
+
+/*This is for the bottom links in the Navigation bar*/
+
+/*
+.bottomHeaderKirkwood {
+	height: 20px;
+	padding-top: 10px;
+	border-style: solid;
+	border-color: #114968;
+	background: #114968;
+	margin-top: 89px;
+	box-shadow: none;
+} 
+*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This starts the float for the weather api */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*
+.content {
+	padding: 5px;
+}
+
+.content h3 {
+	margin-left: 100px;
+}
+
+.content img {
+	margin-left: 35px;
+}
+
+
+.sticky {
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky +.content {
+	padding-top: 155px;
+} 
+*/
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This starts the float for the weather api */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*
+
+.bodyPara {
+	float: left;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #004b87;
+	color: white;
+	text-align: center;
+}
+*/
+
+
+
+
+
 
 
 
