@@ -32,11 +32,11 @@
   cursor: pointer;
   opacity: 0;
 	z-index: 2;
-	color: #a0c941;
+	
 	
 } 
 nav {
-	background-image: url(/images/kirkwood.png);
+	background-image: url("/images/kirkwood.png");
 	background-repeat:no-repeat;
 	background-position: center; 
 }
