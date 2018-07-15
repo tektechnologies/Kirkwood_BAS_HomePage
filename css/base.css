@@ -6,7 +6,7 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-ul li {
+/* ul li {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
@@ -24,7 +24,7 @@ ul li a {
 	padding: 0px 20px;
 	text-decoration: none;
 	color: white;
-}
+} */
 
 a:link {
 	color: #ffffff;
@@ -45,3 +45,4 @@ a:focus {
 a:hover {
 	color: #00aeef;
 }
+

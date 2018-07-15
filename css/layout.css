@@ -1,15 +1,15 @@
 
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*
+
 .mainWrapper {
 	width: 100%;
 }
-*/
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* This with header div */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/*
+
 
  .clearfix {
   clear: both;
@@ -27,13 +27,20 @@
   width: 2em;
   height: 2em;
   position: absolute;
-  top: 10px;
+  top: 25px;
   right: 10px;
   cursor: pointer;
   opacity: 0;
 	z-index: 2;
+	color: #a0c941;
 	
 } 
+ nav {
+	background-image: url(/images/kirkwood.png);
+	background-repeat:no-repeat;
+	background-position: center; 
+}
+
 
 
  nav ul {
@@ -51,44 +58,16 @@ nav ul li {
   list-style: none;
   border-bottom: 1px solid #fff;
 }
-
+/*
 nav ul li a {
   color: #777777;
   text-decoration: none;
   font-size: 1.5em;
   display: block;
   padding: 10px 0;
-}
+} */
 
-@media only screen and (min-width: 640px) {
-  .icon-menu {
-    display: none;
-  }
 
-  .icon-menu + input {
-    display: none;
-  }
-
-  nav ul {
-    margin-left: 0px;
-    margin-bottom: 0px;
-  }
-
-  nav ul li {
-    display: inline-block;
-    border: none;
-  }
-
-  nav ul li a {
-    padding: 10px 20px 10px 0px;
-  }
-} 
-*/
-/* /////////////////////////////////// */
-/* Hambuger css above */
-/* /////////////////////////////////// */
-
-/*
 
 .top-container {
 	height: 20px;
@@ -120,12 +99,12 @@ nav ul li a {
 	padding: 0px;
 	float: right;
 }
-*/
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* This starts the  */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*
+
  .topHeaderKirkwood {
 	padding-top: 6px;
 	height: 20px;
@@ -135,11 +114,11 @@ nav ul li a {
 	margin-top: -3px;
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
-*/
+
 
 /*This is for the bottom links in the Navigation bar*/
 
-/*
+
 .bottomHeaderKirkwood {
 	height: 20px;
 	padding-top: 10px;
@@ -149,12 +128,12 @@ nav ul li a {
 	margin-top: 89px;
 	box-shadow: none;
 } 
-*/
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* This starts the float for the weather api */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*
+
 .content {
 	padding: 5px;
 }
@@ -178,17 +157,16 @@ nav ul li a {
 .sticky +.content {
 	padding-top: 155px;
 } 
-*/
+
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* This starts the float for the weather api */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
-/*
+
 
 .bodyPara {
 	float: left;
 }
-*/
 
 
 
@@ -203,7 +181,8 @@ nav ul li a {
 
 
 
-/*
+
+
 .footer {
 	position: fixed;
 	left: 0;
@@ -213,7 +192,44 @@ nav ul li a {
 	color: white;
 	text-align: center;
 }
-*/
+
+
+
+
+
+@media only screen and (min-width: 640px) {
+	
+  .icon-menu {
+    display: none;
+  }
+
+  .icon-menu + input {
+    display: none;
+  }
+
+  nav ul {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  nav ul li {
+    display: inline-block;
+    border: none;
+  }
+
+  nav ul li a {
+    padding: 10px 20px 10px 0px;
+	}
+
+
+
+
+} 
+
+/* /////////////////////////////////// */
+/* Hambuger css above */
+/* /////////////////////////////////// */
+
 
 
 
