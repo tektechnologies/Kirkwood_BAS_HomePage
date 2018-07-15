@@ -36,7 +36,7 @@
 	
 } 
 nav {
-	background-image: url(../images/kirkwood.png);
+	background-image: url("kirkwood.png");
 	background-repeat:no-repeat;
 	background-position: center; 
 }
