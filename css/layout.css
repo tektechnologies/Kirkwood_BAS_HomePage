@@ -1,65 +1,92 @@
-
 /*///////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
 .mainWrapper {
 	width: 100%;
 }
-
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* This with header div */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
-
  .clearfix {
   clear: both;
   overflow: hidden;
 }
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* icon menu before mobile view */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .icon-menu {
 	position: absolute;
 	right: 10px;
 	font-size: 2em;
 	z-index: 1;
 	color: #fff; 
-
 }
+
 .icon-menu + input {
   width: 2em;
   height: 2em;
   position: absolute;
-  top: 25px;
+  /* top: 25px; */
   right: 10px;
   cursor: pointer;
   opacity: 0;
 	z-index: 2;
-	
-	
 } 
+
+/* This shows the links on click  */
+.icon-menu + input:checked ~ ul {
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* nav  element contains */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
 nav {
 	background-image: url("../images/kirkwood.png");
 	background-repeat:no-repeat;
 	background-position: center; 
 }
 
+/* ul li {
+	display: inline;
+	text-decoration: none;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #114968;
+} */
 
 
- nav ul {
+/* li {
+	float: left;
+} */
+
+
+/* ul li a {
+	padding: 0px 20px;
+	text-decoration: none;
+	color: white;
+} */
+
+ /* This adds blue backgound on click  the mobile css display on the top nav */
+  nav ul {
   margin-left: -200px;
   margin-bottom: -200px;
   padding: 0;
 } 
 
-.icon-menu + input:checked ~ ul {
-  margin-left: 0px;
-  margin-bottom: 0px;
-}
-
-nav ul li {
+/* This add the botton border between links. */
+/* nav ul li {
   list-style: none;
   border-bottom: 1px solid #fff;
-}
-/*
-nav ul li a {
+} */
+
+/* This ends the css on the input click ul view on mobile view. */
+
+
+/* Add this css when you have the background on the mobile view showing correcting */
+/* nav ul li a {
   color: #777777;
   text-decoration: none;
   font-size: 1.5em;
@@ -94,17 +121,19 @@ nav ul li a {
 	height: 155px;
 	border-bottom: 3px #114968 solid;
 } 
-.kirkWoodHeader img {
+
+
+/* Dont use below css will delete before final production */
+/* .kirkWoodHeader img {
 	margin-top: 45px;
 	padding: 0px;
 	margin:0px;
 	float: right;
-}
+} */
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-/* This starts the  */
+/* This starts the top navigation bar in dark blue with white text color */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
-
 
  .topHeaderKirkwood {
 	padding-top: 6px;
@@ -116,9 +145,7 @@ nav ul li a {
 	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 }
 
-
 /*This is for the bottom links in the Navigation bar*/
-
 
 .bottomHeaderKirkwood {
 	height: 20px;
@@ -147,6 +174,9 @@ nav ul li a {
 	margin-left: 35px;
 }
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This runs the css header to slide up until the nav is in a fixed position */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
 .sticky {
 	box-sizing: border-box;
@@ -169,21 +199,9 @@ nav ul li a {
 	float: left;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* This is the fixed footer css */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .footer {
 	position: fixed;
 	left: 0;
@@ -196,9 +214,8 @@ nav ul li a {
 
 
 
-
-
 @media only screen and (min-width: 640px) {
+	
 	
   .icon-menu {
     display: none;
@@ -207,17 +224,14 @@ nav ul li a {
   .icon-menu + input {
     display: none;
   }
-
   nav ul {
     margin-left: 0px;
     margin-bottom: 0px;
   }
-
   nav ul li {
     display: inline-block;
     border: none;
   }
-
   nav ul li a {
     padding: 10px 20px 10px 0px;
 	}
@@ -226,7 +240,6 @@ nav ul li a {
 
 
 } 
-
 /* /////////////////////////////////// */
 /* Hambuger css above */
 /* /////////////////////////////////// */

@@ -6,26 +6,6 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
-/* ul li {
-	display: inline;
-	text-decoration: none;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #114968;
-}
-
-li {
-	float: left;
-}
-
-ul li a {
-	padding: 0px 20px;
-	text-decoration: none;
-	color: white;
-} */
-
 a:link {
 	color: #ffffff;
 }

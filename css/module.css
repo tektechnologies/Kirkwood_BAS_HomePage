@@ -5,7 +5,7 @@
 /*Starts the css for the drop down menu*/
 
 
-li a,
+/* li a,
 .dropbtn {
 	color: white;
 	text-align: center;
@@ -20,9 +20,9 @@ li a:hover,
 
 li.dropdown {
 	display: inline-block;
-}
+} */
 
-.dropdown-content {
+/* .dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: #f9f9f9;
@@ -45,7 +45,7 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
 	display: block;
-}
+} */
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* This starts the float for the weather api */
