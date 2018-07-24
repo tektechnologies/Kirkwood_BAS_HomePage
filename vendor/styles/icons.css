@@ -40,6 +40,9 @@
 }
 .icon-menu:before {
 	content: "\e902";
+ }/*This is what i added */
+.icon-menuTwo:before {
+	content: "\e902";
 }
 .icon-link:before {
 	content: "\e903";

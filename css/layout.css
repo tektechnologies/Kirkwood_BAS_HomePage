@@ -34,18 +34,48 @@
 /* This shows the links on click  */
 .icon-menu + input:checked ~ ul {
   margin-left: 0px;
-  margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 /* nav  element contains */
 /*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
 
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* icon menu before mobile view */
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/* .icon-menuTwo {
+	position: absolute;
+	right: 10px;
+	font-size: 2em;
+	z-index: 1;
+	color: #fff; 
+}
+
+.icon-menuTwo + input {
+  width: 2em;
+  height: 2em;
+  position: absolute;
+  top: 25px; 
+  right: 10px;
+  cursor: pointer;
+  opacity: 0;
+	z-index: 2;
+} 
+
+ 
+.icon-menuTwo + input:checked ~ ul {
+  margin-left: 0px;
+	margin-bottom: 0px;
+} */
+
+
+
 nav {
 	background-image: url("../images/kirkwood.png");
 	background-repeat:no-repeat;
 	background-position: center; 
-}
+} 
 
 /* ul li {
 	display: inline;
@@ -72,8 +102,9 @@ nav {
  /* This adds blue backgound on click  the mobile css display on the top nav */
   nav ul {
   margin-left: -200px;
-  margin-bottom: -200px;
-  padding: 0;
+  /* margin-bottom: -200px;
+	padding: 0; */
+	
 } 
 
 /* This add the botton border between links. */
@@ -219,11 +250,18 @@ nav {
 	
   .icon-menu {
     display: none;
-  }
+	}
+	/* .icon-menuTwo {
+    display: none;
+  } */
 
   .icon-menu + input {
     display: none;
-  }
+	}
+	
+	/* .icon-menuTwo + input {
+    display: none;
+  } */
   nav ul {
     margin-left: 0px;
     margin-bottom: 0px;
